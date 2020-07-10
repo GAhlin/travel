@@ -358,3 +358,8 @@
 0:0:0:0:0:0:0:1 - - [10/Jul/2020:22:37:08 +0800] "GET /travel/route/isFavorite?rid= HTTP/1.1" 200 - http-bio-80-exec-9 1
 0:0:0:0:0:0:0:1 - - [10/Jul/2020:22:37:08 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-80-exec-9 0
 0:0:0:0:0:0:0:1 - - [10/Jul/2020:22:37:11 +0800] "GET /travel/css/bootstrap.min.css.map HTTP/1.1" 404 1015 http-bio-80-exec-9 2
+0:0:0:0:0:0:0:1 - - [10/Jul/2020:22:41:18 +0800] "GET /travel/user/findOne HTTP/1.1" 200 4 http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [10/Jul/2020:22:41:18 +0800] "GET /travel/category/findAll HTTP/1.1" 200 247 http-bio-80-exec-2 9
+0:0:0:0:0:0:0:1 - - [10/Jul/2020:22:41:26 +0800] "GET /travel/user/findOne HTTP/1.1" 200 4 http-bio-80-exec-1 1
+0:0:0:0:0:0:0:1 - - [10/Jul/2020:22:41:26 +0800] "GET /travel/category/findAll HTTP/1.1" 200 247 http-bio-80-exec-4 8
+0:0:0:0:0:0:0:1 - - [10/Jul/2020:22:41:26 +0800] "GET /travel/route/pageQuery?cid=3&currentPage=&rname= HTTP/1.1" 200 69 http-bio-80-exec-2 356
